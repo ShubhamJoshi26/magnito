@@ -43,19 +43,19 @@
             <div>
                 <h3 class="text-lg font-semibold mb-6">Services</h3>
                 <ul class="space-y-3">
-                    <li><a href="services_overview.html"
+                    <li><a href="{{route('services')}}"
                             class="text-secondary-300 hover:text-white transition-colors duration-fast">Custom Web
                             Development</a></li>
-                    <li><a href="services_overview.html"
+                    <li><a href="{{route('services')}}"
                             class="text-secondary-300 hover:text-white transition-colors duration-fast">Mobile App
                             Development</a></li>
-                    <li><a href="services_overview.html"
+                    <li><a href="{{route('services')}}"
                             class="text-secondary-300 hover:text-white transition-colors duration-fast">Cloud &
                             DevOps</a></li>
-                    <li><a href="services_overview.html"
+                    <li><a href="{{route('services')}}"
                             class="text-secondary-300 hover:text-white transition-colors duration-fast">ERP
                             Development</a></li>
-                    <li><a href="services_overview.html"
+                    <li><a href="{{route('services')}}"
                             class="text-secondary-300 hover:text-white transition-colors duration-fast">CRM
                             Development</a></li>
                 </ul>
@@ -65,7 +65,7 @@
             <div>
                 <h3 class="text-lg font-semibold mb-6">Products</h3>
                 <ul class="space-y-3">
-                    <li><a href="school_erp_product.html"
+                    <li><a href="{{route('erp')}}"
                             class="text-secondary-300 hover:text-white transition-colors duration-fast">School ERP
                             System</a></li>
                     <li><a href="javascript:void(0)"
@@ -103,7 +103,8 @@
         <!-- Bottom Bar -->
         <div class="pt-8 border-t border-secondary-800">
             <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                <p class="text-secondary-400 text-sm">© 2026 TechSolutions Pro. All Rights Reserved.</p>
+                <p class="text-secondary-400 text-sm">© {{date('Y')}} Magnito Technologies Pvt Ltd. All Rights Reserved.
+                </p>
                 <div class="flex space-x-6 text-sm">
                     <a href="javascript:void(0)"
                         class="text-secondary-400 hover:text-white transition-colors duration-fast">Privacy Policy</a>
@@ -117,4 +118,30 @@
     </div>
 </footer>
 
+{{-- Modals --}}
+<el-dialog>
+    <dialog id="modal-main" aria-labelledby="dialog-title"
+        class="fixed inset-0 m-0 size-auto max-h-none max-w-none overflow-y-auto bg-transparent p-0 backdrop:bg-transparent">
+        <el-dialog-backdrop
+            class="fixed inset-0 bg-gray-500/75 transition-opacity data-[closed]:opacity-0 data-[enter]:duration-300 data-[leave]:duration-200 data-[enter]:ease-out data-[leave]:ease-in">
+        </el-dialog-backdrop>
+
+        <div tabindex="0"
+            class="flex min-h-full items-end justify-center p-4 text-center focus:outline focus:outline-0 sm:items-center sm:p-0" id="modal-main-body">
+            
+        </div>
+    </dialog>
+</el-dialog>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+    integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
 <!-- Mobile Menu Script -->
+<script src="{{ asset('assets/js/validate.js') }}"></script>
+<script>
+
+</script>

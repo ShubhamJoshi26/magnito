@@ -1,3 +1,4 @@
+
 <!-- Navigation Header -->
 <header
     class="fixed top-0 left-0 right-0 z-100 bg-surface-elevated/95 backdrop-blur-custom border-b border-border shadow-sm">
@@ -11,7 +12,7 @@
 
             <!-- Desktop Navigation -->
             <div class="hidden lg:flex items-center space-x-8">
-                <a href="homepage.html" class="text-primary font-semibold border-b-2 border-primary pb-1">Home</a>
+                <a href="/" class="text-primary font-semibold border-b-2 border-primary pb-1">Home</a>
                 <a href="{{ route('services') }}"
                     class="text-text-secondary hover:text-primary transition-colors duration-fast">Services</a>
                 <a href="{{ route('erp') }}"
@@ -43,7 +44,7 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden lg:hidden pb-6 pt-4 border-t border-border mt-4">
             <div class="flex flex-col space-y-4">
-                <a href="homepage.html" class="text-primary font-semibold px-4 py-2 bg-primary-50 rounded-lg">Home</a>
+                <a href="/" class="text-primary font-semibold px-4 py-2 bg-primary-50 rounded-lg">Home</a>
                 <a href="{{ route('services') }}"
                     class="text-text-secondary hover:text-primary px-4 py-2 hover:bg-surface rounded-lg transition-colors duration-fast">Services</a>
                 <a href="{{ route('erp') }}"

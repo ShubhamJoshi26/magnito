@@ -19,7 +19,7 @@
                         <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                         </svg>
-                        <span class="text-sm font-semibold">Trusted by 500+ Organizations</span>
+                        <span class="text-sm font-semibold">Trusted by 15+ Organizations</span>
                     </div>
 
                     <h1 class="mb-6 animate-slide-up">
@@ -31,7 +31,7 @@
                     </p>
 
                     <div class="flex flex-col sm:flex-row gap-4 mb-8 animate-slide-up" style="animation-delay: 200ms;">
-                        <a href="javascript:void(0)" class="btn-primary text-lg px-8 py-4">
+                        <a href="javascript:void(0)" class="submitEnquiryForm btn-primary text-lg px-8 py-4">
                             <span>Get Started</span>
                             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
@@ -47,7 +47,7 @@
                     </div>
 
                     <!-- Trust Indicators -->
-                    <div class="flex flex-wrap items-center gap-6 animate-slide-up" style="animation-delay: 300ms;">
+                    {{-- <div class="flex flex-wrap items-center gap-6 animate-slide-up" style="animation-delay: 300ms;">
                         <div class="flex items-center space-x-2">
                             <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
@@ -66,7 +66,7 @@
                             </svg>
                             <span class="text-sm text-text-secondary">24/7 Support</span>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
 
                 <!-- Hero Image -->
@@ -103,7 +103,7 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="text-2xl font-bold text-primary">15+</p>
+                                <p class="text-2xl font-bold text-primary">5+</p>
                                 <p class="text-xs text-text-secondary">Years Experience</p>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
                     </div>
                     <h3 class="text-2xl mb-4 group-hover:text-primary transition-colors duration-base">Custom Web Development</h3>
                     <p class="text-text-secondary mb-6 leading-relaxed">Build powerful, scalable web applications tailored to your unique business requirements with modern frameworks and best practices.</p>
-                    <a href="services_overview.html" class="inline-flex items-center text-primary font-semibold group-hover:gap-2 transition-all duration-fast">
+                    <a href="{{route('services')}}" class="inline-flex items-center text-primary font-semibold group-hover:gap-2 transition-all duration-fast">
                         <span>Learn More</span>
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-fast" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -200,7 +200,7 @@
                     </div>
                     <h3 class="text-2xl mb-4 group-hover:text-accent transition-colors duration-base">Mobile App Development</h3>
                     <p class="text-text-secondary mb-6 leading-relaxed">Create engaging iOS and Android applications that deliver seamless user experiences across all devices and platforms.</p>
-                    <a href="services_overview.html" class="inline-flex items-center text-accent font-semibold group-hover:gap-2 transition-all duration-fast">
+                    <a href="{{route('services')}}" class="inline-flex items-center text-accent font-semibold group-hover:gap-2 transition-all duration-fast">
                         <span>Learn More</span>
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-fast" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -217,7 +217,7 @@
                     </div>
                     <h3 class="text-2xl mb-4 group-hover:text-success transition-colors duration-base">Cloud & DevOps</h3>
                     <p class="text-text-secondary mb-6 leading-relaxed">Optimize your infrastructure with cloud migration, containerization, and automated deployment pipelines for maximum efficiency.</p>
-                    <a href="services_overview.html" class="inline-flex items-center text-success font-semibold group-hover:gap-2 transition-all duration-fast">
+                    <a href="{{route('services')}}" class="inline-flex items-center text-success font-semibold group-hover:gap-2 transition-all duration-fast">
                         <span>Learn More</span>
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-fast" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -234,7 +234,7 @@
                     </div>
                     <h3 class="text-2xl mb-4 group-hover:text-primary transition-colors duration-base">ERP Development</h3>
                     <p class="text-text-secondary mb-6 leading-relaxed">Streamline your business operations with custom ERP solutions that integrate all departments into one unified system.</p>
-                    <a href="services_overview.html" class="inline-flex items-center text-primary font-semibold group-hover:gap-2 transition-all duration-fast">
+                    <a href="{{route('services')}}" class="inline-flex items-center text-primary font-semibold group-hover:gap-2 transition-all duration-fast">
                         <span>Learn More</span>
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-fast" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -251,7 +251,7 @@
                     </div>
                     <h3 class="text-2xl mb-4 group-hover:text-accent transition-colors duration-base">CRM Development</h3>
                     <p class="text-text-secondary mb-6 leading-relaxed">Enhance customer relationships with intelligent CRM systems that track interactions and automate sales processes.</p>
-                    <a href="services_overview.html" class="inline-flex items-center text-accent font-semibold group-hover:gap-2 transition-all duration-fast">
+                    <a href="{{route('services')}}" class="inline-flex items-center text-accent font-semibold group-hover:gap-2 transition-all duration-fast">
                         <span>Learn More</span>
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-fast" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -269,7 +269,7 @@
                     </div>
                     <h3 class="text-2xl mb-4 group-hover:text-success transition-colors duration-base">Maintenance & Support</h3>
                     <p class="text-text-secondary mb-6 leading-relaxed">Keep your systems running smoothly with 24/7 monitoring, regular updates, and dedicated technical support teams.</p>
-                    <a href="services_overview.html" class="inline-flex items-center text-success font-semibold group-hover:gap-2 transition-all duration-fast">
+                    <a href="{{route('services')}}" class="inline-flex items-center text-success font-semibold group-hover:gap-2 transition-all duration-fast">
                         <span>Learn More</span>
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform duration-fast" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
@@ -279,7 +279,7 @@
             </div>
 
             <div class="text-center mt-12">
-                <a href="services_overview.html" class="btn-primary text-lg px-8 py-4">
+                <a href="{{route('services')}}" class="btn-primary text-lg px-8 py-4">
                     <span>View All Services</span>
                     <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
@@ -304,7 +304,7 @@
                     </div>
 
                     <!-- Feature Badges -->
-                    <div class="absolute -bottom-4 -left-4 bg-surface-elevated rounded-xl shadow-lg p-4">
+                    {{-- <div class="absolute -bottom-4 -left-4 bg-surface-elevated rounded-xl shadow-lg p-4">
                         <div class="flex items-center space-x-3">
                             <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center">
                                 <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -316,7 +316,7 @@
                                 <p class="text-xs text-text-secondary">Active Users</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="absolute -top-4 -right-4 bg-surface-elevated rounded-xl shadow-lg p-4">
                         <div class="flex items-center space-x-3">
@@ -381,7 +381,7 @@
                     </div>
 
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="school_erp_product.html" class="btn-primary">
+                        <a href="{{route('erp')}}" class="btn-primary">
                             <span>Explore School ERP</span>
                             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
@@ -412,7 +412,7 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="text-center">
-                    <div class="text-5xl md:text-6xl font-bold mb-2">500+</div>
+                    <div class="text-5xl md:text-6xl font-bold mb-2">20+</div>
                     <p class="text-lg text-primary-100">Projects Delivered</p>
                 </div>
                 <div class="text-center">
@@ -420,7 +420,7 @@
                     <p class="text-lg text-primary-100">Client Satisfaction</p>
                 </div>
                 <div class="text-center">
-                    <div class="text-5xl md:text-6xl font-bold mb-2">15+</div>
+                    <div class="text-5xl md:text-6xl font-bold mb-2">5+</div>
                     <p class="text-lg text-primary-100">Years Experience</p>
                 </div>
                 <div class="text-center">
@@ -576,17 +576,32 @@
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                         </svg>
-                        <span>contact@techsolutionspro.com</span>
+                        <span>info@magnitotechnologies.com</span>
                     </div>
                     <div class="flex items-center space-x-2">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
                         </svg>
-                        <span>+1 (555) 123-4567</span>
+                        <span>+917982209735</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+@endsection
+
+@section('script')
+    <script>
+        $('.submitEnquiryForm').on('click',function(e){
+            $.ajax({
+                url:"web/enquiry-form",
+                type:"get",
+                success:function(res){
+                    $('#modal-main-body').html(res);
+                    $('#modal-main')[0].showModal();
+                }
+            })
+        });
+    </script>
 @endsection

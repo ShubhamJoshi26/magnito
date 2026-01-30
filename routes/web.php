@@ -25,3 +25,6 @@ Route::get('/services',function(){
 Route::get('/school-erp',function(){
     return view('school_erp');
 })->name('erp');
+Route::get('web/enquiry-form',function(){
+    return view('forms.enquiry');
+});
