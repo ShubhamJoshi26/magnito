@@ -28,3 +28,6 @@ Route::get('/school-erp',function(){
 Route::get('web/enquiry-form',function(){
     return view('forms.enquiry');
 });
+Route::get('brochure',function(){
+    return view('brochure');
+});
