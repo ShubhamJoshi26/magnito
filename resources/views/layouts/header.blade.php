@@ -27,7 +27,7 @@
 
             <!-- CTA Buttons -->
             <div class="hidden lg:flex items-center space-x-4">
-                <a href="javascript:void(0)" class="btn-ghost text-sm">Sign In</a>
+                <a href="https://crm.magnitotechnologies.com" class="btn-ghost text-sm">Sign In</a>
                 <a href="javascript:void(0)" class="btn-primary text-sm">Get a Quote</a>
             </div>
 
